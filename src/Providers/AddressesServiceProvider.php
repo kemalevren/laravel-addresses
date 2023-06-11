@@ -40,7 +40,7 @@ class AddressesServiceProvider extends ServiceProvider
         ]);
 
         // Register console commands
-        $this->registerCommands($this->commands);
+        //$this->registerCommands($this->commands);
     }
 
     /**
