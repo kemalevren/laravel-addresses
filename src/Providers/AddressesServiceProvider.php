@@ -6,7 +6,7 @@ namespace kemalevren\Addresses\Providers;
 
 use kemalevren\Addresses\Models\Address;
 use Illuminate\Support\ServiceProvider;
-use Rinvex\Support\Traits\ConsoleTools;
+use kemalevren\Support\Traits\ConsoleTools;
 use kemalevren\Addresses\Console\Commands\MigrateCommand;
 use kemalevren\Addresses\Console\Commands\PublishCommand;
 use kemalevren\Addresses\Console\Commands\RollbackCommand;
